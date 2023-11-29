@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:snap_share_t3/core/colors/colors.dart';
 
 import '../controllers/home_controller.dart';
 
@@ -10,8 +11,7 @@ class HomeView extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('HomeView'),
-        centerTitle: true,
+        title: const Text('Social Live',style: TextStyle(color: AppColors.black),),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
