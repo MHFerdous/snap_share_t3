@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:snap_share_t3/app/common/utils/colors.dart';
+import 'package:snap_share_t3/core/colors/colors.dart';
 
 InputDecorationTheme customInputDecorationTheme = const InputDecorationTheme(
     filled: true,
